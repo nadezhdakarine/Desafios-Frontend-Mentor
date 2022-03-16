@@ -184,7 +184,7 @@ select:focus {
 
 @media screen and (min-width: 960px) {
   main {
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding: 3rem 3rem;
     display: flex;
@@ -203,6 +203,10 @@ select:focus {
     margin-right: 3rem;
   }
 
+  li {
+    width: 30%;
+  }
+
   .resultado {
     display: flex-box;
     width: 50%;
@@ -210,18 +214,18 @@ select:focus {
 
   #gorgetaPorPessoaId {
     position: absolute;
-    right: 20%;
+    right: 18%;
     box-sizing: border-box;
   }
 
   #totalPorPessoaId {
     position: absolute;
-    right: 20%;
+    right: 18%;
     box-sizing: border-box;
   }
 
   .botao_reset {
     position: relative;
-    top: 9.5rem;
+    top: 5.5rem;
   }
 }
