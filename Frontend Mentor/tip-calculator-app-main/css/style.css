@@ -181,3 +181,47 @@ select:focus {
 .attribution {
   margin: 1rem 0;
 }
+
+@media screen and (min-width: 960px) {
+  main {
+    width: 65%;
+    margin: auto;
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  .principal {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 3rem;
+  }
+
+  .resultado {
+    display: flex-box;
+    width: 50%;
+  }
+
+  #gorgetaPorPessoaId {
+    position: absolute;
+    right: 20%;
+    box-sizing: border-box;
+  }
+
+  #totalPorPessoaId {
+    position: absolute;
+    right: 20%;
+    box-sizing: border-box;
+  }
+
+  .botao_reset {
+    position: relative;
+    top: 9.5rem;
+  }
+}

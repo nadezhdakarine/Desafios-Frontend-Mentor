@@ -7,7 +7,7 @@ function calculaGorgeta(porcentagem){
     if(porcentagem == undefined){
         porcentagem = gorj;
     }
-    console.log(porcentagem);
+    
     let bill = document.getElementById("input_valorId").value;
     let numeroDePessoas = document.getElementById("input_pessoasId").value;
     let gorgetaPorPessoa = (bill * porcentagem) / numeroDePessoas;
