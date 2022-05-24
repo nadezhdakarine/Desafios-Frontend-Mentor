@@ -1,0 +1,50 @@
+:root{
+  --color-light-cyan: hsl(193, 38%, 86%);
+  --color-neon-green: hsl(150, 100%, 66%);
+  --color-grayish-blue: hsl(217, 19%, 38%);
+  --color-dark-grayish-blue:hsl(217, 19%, 24%);
+  --color-dark-blue: hsl(218, 23%, 16%);
+  background-color: var(--color-dark-blue);
+}
+
+.App {
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+}
+
+.card{
+  background-color: var(--color-dark-grayish-blue);
+  display: inline-block;
+  width: 40vw;
+  height: 40vh;
+  margin-top: 30vh;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.advice-number{
+  color: var(--color-neon-green);
+  font-size: 12px;
+}
+
+.advice{
+  font-size: 24px;
+  color: var(--color-light-cyan);
+  margin-top: 2rem;
+
+}
+
+button{
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-neon-green);
+  position: relative;
+  bottom: 2rem;
+}
+
+button:hover{
+  box-shadow: 0 0 2rem var(--color-neon-green);
+}
